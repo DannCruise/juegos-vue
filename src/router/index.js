@@ -4,7 +4,7 @@ import Simon from '../Views/Simon.vue'
 import Adivina from '../Views/Adivina.vue'
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('#'),
   routes: [
     {
       path: '/',
